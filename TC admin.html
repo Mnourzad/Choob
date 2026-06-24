@@ -1,19 +1,76 @@
-<div class="container mx-auto p-6">
-    <h1 class="text-2xl font-bold mb-6">پنل مدیریت فروشگاه</h1>
-    
-    <!-- بخش مدیریت سفارشات -->
-    <section class="mb-10">
-        <h2 class="text-xl font-bold mb-4">سفارشات مشتریان</h2>
-        <div id="orders-list" class="bg-white rounded shadow p-4">
-            در حال بارگذاری سفارشات...
-        </div>
-    </section>
+<!DOCTYPE html>
 
-    <!-- بخش افزودن محصول (همان کدی که قبلاً داشتید) -->
-    <section>
-        <h2 class="text-xl font-bold mb-4">افزودن محصول جدید</h2>
-        <form id="admin-form" class="space-y-4">
-            <!-- فیلدها -->
-        </form>
-    </section>
-</div>
+<html lang="fa" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>T-Choob</title>
+
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="./Style2.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.google.com/specimen/Baloo+2?query=baloo&preview.lang=en_Latn" rel="stylesheet">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar-container">
+                <img class="logo" src="./Logo both.png"/>
+
+                <div class="navbar-actions">
+                    <img src="./profile.jpg" class="prof-pict">
+                </div>
+
+            </nav>
+        </header>
+        
+        <main>
+            <section class="hp-banner-container">
+                <img src="./bannner.png" class="hp-banner">
+                <!-- <div class="hero-text">
+
+                    <h1>تی چوب</h1>
+
+                    <p>T Choob</p>
+
+                </div> -->
+            </section>
+
+            <span class="mng-back-container">
+                <div class="hp-mng-back">
+                    <div class="products-header">
+
+                        <h2>خدمات مدیریت</h2>
+
+                        <p>برای ادامه یک گزینه را انتخاب کنید</p>
+
+                    </div>
+
+                    <div class="manage-buttons-container">
+                        <a href="./Reg JS.html">
+                            <button class="manage-button">ثبت سفارش</button>
+                        </a>
+                        <a href="./Reg JS.html">
+                            <button class="manage-button">مدیریت سفارشات</button>
+                        </a>
+                        <a href="./Reg JS.html">
+                            <button class="manage-button">مدیریت محصولات</button>
+                        </a>
+                        <a href="./Reg JS.html">
+                            <button class="manage-button">مدیریت کاربرها</button>
+                        </a>
+                    </div>   
+                </div>  
+            </span> 
+        </main>
+
+    </body>
+
+</html>
